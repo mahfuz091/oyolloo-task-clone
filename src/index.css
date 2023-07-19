@@ -9,6 +9,7 @@
 }
 .navbar a:hover {
   background: none;
+  border-radius: 0;
 }
 .navbar a {
   font-family: Inter;
@@ -16,6 +17,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  border-radius: 0;
 }
 .nav-btn {
   color: #404040;
@@ -31,6 +33,12 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.active-border {
+  border-bottom: 1px solid #fd9c06;
+  width: 45%;
+  padding: 3px 0;
+  margin-right: 40px;
 }
 .font-primary {
   font-family: "Space Grotesk", sans-serif;

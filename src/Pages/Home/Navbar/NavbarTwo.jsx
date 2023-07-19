@@ -8,7 +8,9 @@ const NavbarTwo = () => {
     <>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           Home
@@ -16,7 +18,9 @@ const NavbarTwo = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           About Us
@@ -24,7 +28,9 @@ const NavbarTwo = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           Services
@@ -32,7 +38,9 @@ const NavbarTwo = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           Pricing
@@ -40,7 +48,9 @@ const NavbarTwo = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           Blog
@@ -48,7 +58,9 @@ const NavbarTwo = () => {
       </li>
       <li>
         <NavLink
-          className={({ isActive }) => (isActive ? "text-[#FD9C06]" : "")}
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
           to='/'
         >
           Contact
@@ -57,7 +69,7 @@ const NavbarTwo = () => {
     </>
   );
   return (
-    <div className='navbar wraper pt-[26px] pb-[25.2px]'>
+    <div className='navbar wraper pt-[26px] pb-[25.2px] bg-[#FFFFFF]'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost lg:hidden'>
