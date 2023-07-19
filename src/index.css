@@ -210,3 +210,22 @@
   line-height: 22px;
   margin-top: 10px;
 }
+.feature-text {
+  color: #eb5757;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 180% */
+  text-transform: uppercase;
+}
+.feature-title {
+  color: #0f0f0f;
+  font-family: Space Grotesk;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 114.815% */
+  letter-spacing: -1.08px;
+  width: 721px;
+}
