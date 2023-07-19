@@ -16,7 +16,7 @@ const Banner = () => {
             <span className='text-[#FD9C06]'>Hire consultant</span> for boost
             your business
           </h2>
-          <p className='hero-description mt-[20px]'>
+          <p className='hero-description mt-[20px] w-[629px]'>
             Consultancy firm established by professionals with the intention to
             identify and unlock potential avenues for innovative ideas
           </p>

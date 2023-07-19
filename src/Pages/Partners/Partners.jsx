@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Partners = () => {
   return (
-    <div className='wraper   '>
+    <div className='max-w-[1320px]  mx-auto '>
       <Marquee>
         <div className='mr-[108.77px]  pt-[115.36px] pb-[127.12px]'>
           <svg
@@ -136,7 +136,7 @@ const Partners = () => {
             />
           </svg>
         </div>
-        <div className='flex items-end pt-[114.7px] pb-[127.78px]'>
+        <div className='flex items-end mr-[108.77px] pt-[114.7px] pb-[127.78px]'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='20'
