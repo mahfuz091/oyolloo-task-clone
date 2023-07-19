@@ -5,17 +5,65 @@
 #root {
   max-width: 1920px;
   margin: 0 auto;
-
+  width: 100%;
+}
+.navbar a:hover {
+  background: none;
+}
+.navbar a {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-btn {
+  color: #404040;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  border: 1.5px solid #404040;
+  display: flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.font-primary {
+  font-family: "Space Grotesk", sans-serif;
+}
+.font-secondary {
+  font-family: "Inter", sans-serif;
+}
+.wraper {
+  max-width: 1380px;
+  margin: 0 auto;
+  width: 100%;
+}
+.active {
+  color: #fd9c06;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px solid #fd9c06;
 }
 
 .navbar-one {
-  background-color: #0F0F0F;
-  color: #FFFFFF;
+  background-color: #0f0f0f;
+  color: #ffffff;
   padding: 20px 300px;
 }
 
 .icon {
   height: 20px;
   width: 20px;
-
+}
+.logo {
+  width: 76px;
+  height: 49px;
 }
