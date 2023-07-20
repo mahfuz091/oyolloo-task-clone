@@ -101,7 +101,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className='mt-[129px] '>
+        <div className='mt-[129px] relative '>
           <div className='hero-img relative  '>
             <div className='border   '></div>
             <div className='absolute bottom-[4px] -left-[37px]'>
@@ -118,15 +118,10 @@ const Banner = () => {
 
               <img className='absolute bottom-0 z-10' src={portrait} alt='' />
             </div>
-
-            {/* <div>
-              <div className='border  '></div>
-              
-            </div> */}
           </div>
-          {/* <div className='  '>
+          <div className=' absolute bottom-[107px] -left-[188px]  z-10 '>
             <img src={card02} alt='' />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
