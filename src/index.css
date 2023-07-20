@@ -229,3 +229,27 @@
   letter-spacing: -1.08px;
   width: 721px;
 }
+.feature-description {
+  color: #404040;
+  width: 517px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 180% */
+}
+.element {
+  width: 294px;
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 147px 147px 0px 147px;
+  background: #c3caff;
+}
+.project-success {
+  width: 215px;
+  height: 226px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--neutral-pure-white, #fff);
+  box-shadow: 8px -7px 54px 0px rgba(202, 202, 202, 0.2);
+}
