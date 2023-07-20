@@ -23,12 +23,12 @@ const Banner = () => {
           <a className='discover-btn mt-[40px]'>
             Discover More <FiArrowUpRight />
           </a>
-          <div className='flex items-center gap-[26px] mt-[74px] pb-[138.19px]'>
-            <div className='flex  '>
+          <div className='flex items-center gap-[26px] mt-[54px] mb-[138.19px]  '>
+            <div className='flex items-center'>
               <img className='mr-[-24px]' src={ellipse1} alt='' />
-              <img className='mr-[-24px]' src={ellipse2} alt='' />
-              <img className='mr-[-24px]' src={ellipse3} alt='' />
-              <img src={ellipse4} alt='' />
+              <img className='mr-[-24px] ' src={ellipse2} alt='' />
+              <img className='mr-[-24px] ' src={ellipse3} alt='' />
+              <img className='' src={ellipse4} alt='' />
             </div>
             <div>
               <div className='flex items-center gap-[10px]'>
@@ -97,36 +97,36 @@ const Banner = () => {
                   </svg>
                 </p>
               </div>
-              <div>
-                <p className='review '>325k Total Review</p>
-              </div>
+              <p className='banner-review'>325k Total Review</p>
             </div>
           </div>
         </div>
-        <div className=' mt-[129px] '>
+        <div className='mt-[129px] '>
           <div className='hero-img relative  '>
-            <img
-              className='absolute z-10  -top-[75.5px]'
-              src={portrait}
-              alt=''
-            />
-            <div>
-              <div className='border ml-[37px] relative '></div>
+            <div className='border   '></div>
+            <div className='absolute bottom-[4px] -left-[37px]'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='525'
                 height='621'
                 viewBox='0 0 525 621'
                 fill='none'
-                className='ml-[41px] absolute -top-[87px] '
+                className='ml-[41px]  '
               >
                 <path d='M0 162.5L525 0.5V621H0L0 162.5Z' fill='#C3CAFF' />
               </svg>
+
+              <img className='absolute bottom-0 z-10' src={portrait} alt='' />
             </div>
+
+            {/* <div>
+              <div className='border  '></div>
+              
+            </div> */}
           </div>
-          <div className=' absolute -bottom-[260px] z-10  left-[930px] '>
+          {/* <div className='  '>
             <img src={card02} alt='' />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
