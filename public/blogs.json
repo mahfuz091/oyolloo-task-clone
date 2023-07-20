@@ -1,0 +1,35 @@
+[
+    {
+        "_id": "643010e0f5a7e52ce1e8fa65",
+        "title": "What is a business consultant?",
+        "details": "A business consultant is a professional with a wide array of skills who assists business owners ",
+        "status": "Consultant",
+        "image":"https://i.ibb.co/Rb8FTBh/Image.png",
+        "message": "25",
+        "watch":"32K",
+        "date": "2023-12-02"
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa75",
+        "title": "What is a business consultant?",
+        "details": "A business consultant is a professional with a wide array of skills who assists business owners ",
+        "status": "Consultant",
+        "image":"https://i.ibb.co/9rzBrTF/image2.png",
+        "message": "25",
+        "watch":"32K",
+        "date": "2023-12-02"
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa76",
+        "title": "What is a business consultant?",
+        "details": "A business consultant is a professional with a wide array of skills who assists business owners ",
+        "status": "Consultant",
+        "image":"https://i.ibb.co/4KN9wVK/Image-2.png",
+        "message": "25",
+        "watch":"32K",
+        "date": "2023-12-02"
+    }
+    
+    
+    
+]
