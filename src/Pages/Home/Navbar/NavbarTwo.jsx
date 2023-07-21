@@ -21,7 +21,8 @@ const NavbarTwo = () => {
           className={({ isActive }) =>
             isActive ? "text-[#FD9C06] active-border" : ""
           }
-          to='/'
+          to='about'
+          smooth
         >
           About Us
         </NavLink>
@@ -31,7 +32,8 @@ const NavbarTwo = () => {
           className={({ isActive }) =>
             isActive ? "text-[#FD9C06] active-border" : ""
           }
-          to='/'
+          to='services'
+          smooth
         >
           Services
         </NavLink>
@@ -41,7 +43,8 @@ const NavbarTwo = () => {
           className={({ isActive }) =>
             isActive ? "text-[#FD9C06] active-border" : ""
           }
-          to='/'
+          to='pricing'
+          smooth
         >
           Pricing
         </NavLink>
@@ -51,7 +54,8 @@ const NavbarTwo = () => {
           className={({ isActive }) =>
             isActive ? "text-[#FD9C06] active-border" : ""
           }
-          to='/'
+          to='blog'
+          smooth
         >
           Blog
         </NavLink>
@@ -61,7 +65,8 @@ const NavbarTwo = () => {
           className={({ isActive }) =>
             isActive ? "text-[#FD9C06] active-border" : ""
           }
-          to='/'
+          to='contact'
+          smooth
         >
           Contact
         </NavLink>
@@ -111,9 +116,9 @@ const NavbarTwo = () => {
         <ul className='menu menu-horizontal px-1'>{navOptions}</ul>
       </div>
       <div className='navbar-end'>
-        <a className='nav-btn'>
+        <button className='nav-btn'>
           Free Consultation <FiArrowUpRight />
-        </a>
+        </button>
       </div>
     </div>
   );

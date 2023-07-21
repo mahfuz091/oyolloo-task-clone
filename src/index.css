@@ -20,6 +20,8 @@
   font-weight: 500;
   line-height: normal;
   border-radius: 0;
+  margin-right: 40px;
+  padding: 3px 0;
 }
 
 .nav-btn {
@@ -41,8 +43,8 @@
 .active-border {
   border-bottom: 1px solid #fd9c06;
   width: 45%;
-  padding: 3px 0;
-  margin-right: 40px;
+  /* padding: 3px 0; */
+  /* margin-right: 40px; */
 }
 
 .font-primary {
@@ -171,7 +173,7 @@
 
 .collaps-title {
   border-radius: 5px;
-  border: 1px solid #D6D8E8;
+  border: 1px solid #d6d8e8;
   padding-left: 30px;
   padding-top: 18px;
   padding-bottom: 23px;
@@ -183,12 +185,11 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-
 }
 
 .collaps-title-open {
   border-radius: 5px 5px 0px 0px;
-  background: #0F0F0F;
+  background: #0f0f0f;
 
   padding-left: 30px;
   padding-top: 18px;
@@ -196,7 +197,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -206,11 +207,9 @@
 
 .collaps-desc {
   border-radius: 0px 0px 5px 5px;
-  background: #FFF;
-  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.10);
-
+  background: #fff;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
 }
-
 
 .line1 {
   width: 69px;
@@ -296,8 +295,6 @@
   text-transform: uppercase;
 }
 
-
-
 .feature-title {
   color: #0f0f0f;
   font-family: Space Grotesk;
@@ -310,7 +307,7 @@
   width: 721px;
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .feature-title {
     font-size: 54px;
     font-style: normal;
@@ -320,7 +317,6 @@
 
     width: 100%;
   }
-
 }
 
 .feature-description {
@@ -726,22 +722,21 @@
   height: 130px;
 
   border-radius: 10px;
-  background: #FFF;
+  background: #fff;
   box-shadow: -10px 23px 54px 0px rgba(172, 172, 172, 0.12);
 }
 
 .footer-header {
-  color: #FFF;
+  color: #fff;
   font-family: Space Grotesk;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-
 }
 
 .footer-desctiption {
-  color: #B4B4B4;
+  color: #b4b4b4;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -751,13 +746,12 @@
 }
 
 .copyright {
-  color: #FFF;
+  color: #fff;
 
-  background: rgba(122, 122, 122, .07);
+  background: rgba(122, 122, 122, 0.07);
   margin-top: 61px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px;
-
 }

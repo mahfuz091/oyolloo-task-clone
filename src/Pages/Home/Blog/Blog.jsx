@@ -10,7 +10,7 @@ const Blog = () => {
       .then((data) => setblogs(data));
   }, []);
   return (
-    <div className='wraper'>
+    <div className='wraper' id='blog'>
       <h2 className='blog-title '>Regular Get Update </h2>
       <div className='mt-[60px] grid grid-cols-3'>
         {blogs.map((blog) => (

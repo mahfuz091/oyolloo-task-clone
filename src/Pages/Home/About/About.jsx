@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import CountUp from "react-countup";
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <div className='max-w-[1620px] flex gap-[90px]'>
         <div className='bg-[#FFF5DA] pl-[300px]'>
           <div className='flex gap-8 mb-[41px] mt-[96px]'>

@@ -6,11 +6,11 @@ import ellipse3 from "../../assets/Image/Ellipse3.png";
 import ellipse4 from "../../assets/Image/Ellipse4.png";
 import portrait from "../../assets/Image/Portrait Image.png";
 import card02 from "../../assets/Image/card 02.png";
-import project from '../../assets/Image/Group-02.png'
+import project from "../../assets/Image/Group-02.png";
 
 const Banner = () => {
   return (
-    <div className='bg-[#F4F9FF]'>
+    <div className='bg-[#F4F9FF] '>
       <div className='wraper flex gap-[19px]'>
         <div className='hero-content flex flex-col items-start'>
           <h2 className='hero-title pt-[82px]'>
@@ -124,10 +124,12 @@ const Banner = () => {
             <img src={card02} alt='' />
           </div>
           <div className='banner-project flex items-center gap-[19px] pl-[20px] absolute -top-[47px] z-10 -right-[98px]'>
-            <img className="w-[71px]" src={project} alt="" />
+            <img className='w-[71px]' src={project} alt='' />
             <div>
-              <h2 className="font-secondary text-3xl font-bold mb-[10px]">200K</h2>
-              <p className="font-secondary text-lg font-medium">Project Done</p>
+              <h2 className='font-secondary text-3xl font-bold mb-[10px]'>
+                200K
+              </h2>
+              <p className='font-secondary text-lg font-medium'>Project Done</p>
             </div>
           </div>
         </div>
