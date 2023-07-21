@@ -6,6 +6,7 @@ import ellipse3 from "../../assets/Image/Ellipse3.png";
 import ellipse4 from "../../assets/Image/Ellipse4.png";
 import portrait from "../../assets/Image/Portrait Image.png";
 import card02 from "../../assets/Image/card 02.png";
+import project from '../../assets/Image/Group-02.png'
 
 const Banner = () => {
   return (
@@ -121,6 +122,13 @@ const Banner = () => {
           </div>
           <div className=' absolute bottom-[107px] -left-[188px]  z-10 '>
             <img src={card02} alt='' />
+          </div>
+          <div className='banner-project flex items-center gap-[19px] pl-[20px] absolute -top-[47px] z-10 -right-[98px]'>
+            <img className="w-[71px]" src={project} alt="" />
+            <div>
+              <h2 className="font-secondary text-3xl font-bold mb-[10px]">200K</h2>
+              <p className="font-secondary text-lg font-medium">Project Done</p>
+            </div>
           </div>
         </div>
       </div>

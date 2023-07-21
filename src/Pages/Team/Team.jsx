@@ -19,7 +19,7 @@ const Team = () => {
           slidesPerView={3.95}
           centeredSlides='true'
           spaceBetween={30}
-          className=' mySwiper max-w-[1920px]'
+          className=' mySwiper '
         >
           <SwiperSlide>
             <div className='image image1 relative '>
