@@ -664,6 +664,38 @@
   height: 130px;
 
   border-radius: 10px;
-  background: var(--neutral-pure-white, #FFF);
+  background: #FFF;
   box-shadow: -10px 23px 54px 0px rgba(172, 172, 172, 0.12);
+}
+
+.footer-header {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+
+}
+
+.footer-desctiption {
+  color: #B4B4B4;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+}
+
+.copyright {
+  color: #FFF;
+
+  background: rgba(122, 122, 122, .07);
+  margin-top: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
 }
