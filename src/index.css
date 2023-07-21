@@ -165,6 +165,53 @@
   text-transform: uppercase;
 }
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.collaps-title {
+  border-radius: 5px;
+  border: 1px solid #D6D8E8;
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.collaps-title-open {
+  border-radius: 5px 5px 0px 0px;
+  background: #0F0F0F;
+
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.collaps-desc {
+  border-radius: 0px 0px 5px 5px;
+  background: #FFF;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+
 .line1 {
   width: 69px;
   height: 2px;

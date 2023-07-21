@@ -1,7 +1,42 @@
+import { useState } from "react";
 import feature from "../../../assets/Image/feature.png";
 import group from "../../../assets/Image/Group 42.png";
+import AccordionItem from "./AccordionItem";
 
 const Features = () => {
+  const [open, setOpen] = useState(false)
+
+  const toggle = (index) => {
+    if (open === index) {
+      return (
+        setOpen(null)
+
+
+      )
+
+    }
+    setOpen(index)
+  }
+  const accordionData = [
+    {
+      id: "1",
+      title: "Investing in Digital Company",
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
+
+    },
+    {
+      id: "2",
+      title: "Building the  idea of future",
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
+
+    },
+    {
+      id: "3",
+      title: "Accurate and friendly support",
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
+
+    }
+  ]
   return (
     <div className='mt-[140px] pl-[299px] pr-[250px] flex gap-[83px]'>
       <div>
@@ -12,6 +47,10 @@ const Features = () => {
         <h1 className='feature-title'>
           Solve your business problems with our experts
         </h1>
+        <div className='mt-[40px]'>
+          {accordionData.map((data, index) => (<AccordionItem
+            key={data.id} index={index} open={index === open} title={data.title} desc={data.desc} toggle={() => toggle(index)} ></AccordionItem>))}
+        </div>
       </div>
       <div>
         <p className='feature-description mb-[38px]'>
