@@ -11,20 +11,20 @@ import project from "../../assets/Image/Group-02.png";
 const Banner = () => {
   return (
     <div className='bg-[#F4F9FF] '>
-      <div className='wraper flex gap-[19px]'>
+      <div className='wraper lg:flex gap-[19px]'>
         <div className='hero-content flex flex-col items-start'>
-          <h2 className='hero-title pt-[82px]'>
+          <h2 className='hero-title w-full  lg:w-[704px]  lg:text-[90px] pt-[30px] lg:pt-[82px]'>
             <span className='text-[#FD9C06]'>Hire consultant</span> for boost
             your business
           </h2>
-          <p className='hero-description mt-[20px] w-[629px]'>
+          <p className='hero-description w-full mt-[20px]  lg:w-[629px]'>
             Consultancy firm established by professionals with the intention to
             identify and unlock potential avenues for innovative ideas
           </p>
           <a className='discover-btn mt-[40px]'>
             Discover More <FiArrowUpRight />
           </a>
-          <div className='flex items-center gap-[26px] mt-[54px] mb-[138.19px]  '>
+          <div className='flex items-center gap-[26px] pl-[20px] md:pl-0 mt-[54px] mb-[138.19px]  '>
             <div className='flex items-center'>
               <img className='mr-[-24px]' src={ellipse1} alt='' />
               <img className='mr-[-24px] ' src={ellipse2} alt='' />
@@ -102,8 +102,8 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className='mt-[129px] relative '>
-          <div className='hero-img relative  '>
+        <div className='lg:mt-[129px] relative   lg:ml-0 hero-sec '>
+          <div className='hero-img  relative  '>
             <div className='border   '></div>
             <div className='absolute bottom-[4px] -left-[37px]'>
               <svg
@@ -112,7 +112,7 @@ const Banner = () => {
                 height='621'
                 viewBox='0 0 525 621'
                 fill='none'
-                className='ml-[41px]  '
+                className='ml-[41px] '
               >
                 <path d='M0 162.5L525 0.5V621H0L0 162.5Z' fill='#C3CAFF' />
               </svg>
@@ -120,10 +120,10 @@ const Banner = () => {
               <img className='absolute bottom-0 z-10' src={portrait} alt='' />
             </div>
           </div>
-          <div className=' absolute bottom-[107px] -left-[188px]  z-10 '>
+          <div className=' absolute -bottom-[100px] lg:bottom-[107px] -left-[50px] lg:-left-[188px]  z-10 '>
             <img src={card02} alt='' />
           </div>
-          <div className='banner-project flex items-center gap-[19px] pl-[20px] absolute -top-[47px] z-10 -right-[98px]'>
+          <div className='banner-project flex items-center gap-[19px] pl-[20px] absolute -top-[55px] right-0 lg:-top-[47px] z-10 md:right-[124px] lg:-right-[98px]'>
             <img className='w-[71px]' src={project} alt='' />
             <div>
               <h2 className='font-secondary text-3xl font-bold mb-[10px]'>

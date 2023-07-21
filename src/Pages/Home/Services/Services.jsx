@@ -8,8 +8,8 @@ import icon4 from "../../../assets/Image/Icon-4.png";
 const Services = () => {
   return (
     <div className='mt-[120px]' id='services'>
-      <div className='ml-[302px] flex '>
-        <div className='mt-[90px]'>
+      <div className=' lg:ml-[302px] lg:flex '>
+        <div className='ml-[50px] md:ml-0 mt-[90px]'>
           <h2 className='feature-text flex items-center gap-2'>
             <hr className='line1' />
             Our Services
@@ -39,7 +39,7 @@ const Services = () => {
           </div>
         </div>
         <div className='service-cards relative'>
-          <div className='grid grid-cols-2 gap-[30px] absolute top-[90px] -left-[175px]'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-[30px] absolute  lg:top-[90px] lg:-left-[175px]'>
             <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>

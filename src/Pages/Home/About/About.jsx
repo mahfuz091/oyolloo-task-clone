@@ -5,9 +5,9 @@ import CountUp from "react-countup";
 const About = () => {
   return (
     <div id='about'>
-      <div className='max-w-[1620px] flex gap-[90px]'>
-        <div className='bg-[#FFF5DA] pl-[300px]'>
-          <div className='flex gap-8 mb-[41px] mt-[96px]'>
+      <div className='max-w-[1620px] flex flex-col-reverse lg:flex gap-[90px]'>
+        <div className='bg-[#FFF5DA]  py-1 md:py-0 lg:pl-[300px]'>
+          <div className='flex gap-8 pl-10 mt-[50px] md:pl-0 mb-[41px] md:mt-[96px]'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='84'
@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <img src={about} alt='' />
         </div>
-        <div className='mt-[27px] '>
+        <div className='mt-[27px] pl-10 md:pl-0'>
           <h2 className='about-text flex items-center gap-2'>
             <hr className='line1' />
             About Us

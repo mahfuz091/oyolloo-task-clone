@@ -2,7 +2,7 @@ import React from "react";
 
 const NavbarOne = () => {
   return (
-    <div className='navbar-one  flex justify-between '>
+    <div className='navbar-one  lg:flex justify-between '>
       <div className='flex gap-5'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -59,7 +59,7 @@ const NavbarOne = () => {
           </g>
         </svg>
       </div>
-      <div className='flex gap-5'>
+      <div className='lg:flex gap-5'>
         <div className='flex items-center gap-3'>
           <svg
             xmlns='http://www.w3.org/2000/svg'

@@ -76,6 +76,11 @@
   color: #ffffff;
   padding: 20px 300px;
 }
+@media (max-width: 576px) {
+  .navbar-one {
+    padding: 20px 150px;
+  }
+}
 
 .icon {
   height: 20px;
@@ -90,10 +95,11 @@
 .hero-title {
   color: #0f0f0f;
   font-family: Space Grotesk;
-  font-size: 90px;
+  /* font-size: 90px; */
   font-style: normal;
   font-weight: 700;
   line-height: 86px;
+
   /* 95.556% */
   letter-spacing: -1.8px;
 }
@@ -380,9 +386,9 @@
 .service-cards {
   width: 951px;
   height: 804px;
-  flex-shrink: 0;
+
   background: #f4f9ff;
-  margin-left: 249px;
+  /* margin-left: 249px; */
 }
 
 .service-card {
@@ -754,4 +760,57 @@
   align-items: center;
   justify-content: space-between;
   padding: 30px;
+}
+@media (max-width: 576px) {
+  .hero-sec {
+    margin-left: 35px;
+  }
+  .banner-project {
+    top: -65px;
+    right: 5px;
+  }
+  .discover-btn {
+    margin-left: 20px;
+    padding-left: 40px;
+  }
+  .hero-title {
+    margin-left: 20px;
+    font-size: 72px;
+  }
+  .hero-description {
+    margin-left: 20px;
+  }
+  .service-cards {
+    width: 100%;
+    height: 1450px;
+    margin-top: 50px;
+  }
+  .service-card {
+    margin-left: 100px;
+    margin-top: 50px;
+
+    background-color: hsla(0, 0%, 100%, 1);
+    width: 398px;
+    height: 297px;
+  }
+}
+
+@media (min-width: 767px) {
+  .hero-sec {
+    margin-left: 105px;
+  }
+  .banner-project {
+    top: -65px;
+    right: 40px;
+  }
+  .discover-btn {
+    margin-left: 50px;
+  }
+  .hero-title {
+    margin-left: 35px;
+    font-size: 80px;
+  }
+  .hero-description {
+    margin-left: 35px;
+  }
 }

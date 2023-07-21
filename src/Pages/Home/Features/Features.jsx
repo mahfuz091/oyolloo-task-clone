@@ -4,41 +4,33 @@ import group from "../../../assets/Image/Group 42.png";
 import AccordionItem from "./AccordionItem";
 
 const Features = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const toggle = (index) => {
     if (open === index) {
-      return (
-        setOpen(null)
-
-
-      )
-
+      return setOpen(null);
     }
-    setOpen(index)
-  }
+    setOpen(index);
+  };
   const accordionData = [
     {
       id: "1",
       title: "Investing in Digital Company",
-      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
-
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies.",
     },
     {
       id: "2",
       title: "Building the  idea of future",
-      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
-
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies.",
     },
     {
       id: "3",
       title: "Accurate and friendly support",
-      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies."
-
-    }
-  ]
+      desc: "Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies.",
+    },
+  ];
   return (
-    <div className='mt-[140px] pl-[50px] lg:pl-[299px] lg:pr-[250px] lg:flex gap-[83px]'>
+    <div className='mt-[80px] md:mt-[140px] pl-[50px] lg:pl-[299px] lg:pr-[250px] lg:flex gap-[83px]'>
       <div>
         <h2 className='feature-text flex items-center gap-2'>
           <hr className='line1' />
@@ -48,12 +40,20 @@ const Features = () => {
           Solve your business problems with our experts
         </h1>
         <div className='mt-[40px]'>
-          {accordionData.map((data, index) => (<AccordionItem
-            key={data.id} index={index} open={index === open} title={data.title} desc={data.desc} toggle={() => toggle(index)} ></AccordionItem>))}
+          {accordionData.map((data, index) => (
+            <AccordionItem
+              key={data.id}
+              index={index}
+              open={index === open}
+              title={data.title}
+              desc={data.desc}
+              toggle={() => toggle(index)}
+            ></AccordionItem>
+          ))}
         </div>
       </div>
       <div>
-        <p className='feature-description mb-[38px]'>
+        <p className='feature-description mt-[50px] md:mt-0 mb-[38px]'>
           Business consultants provide management consulting to help businesses
           and organizations improve performance and efficienc
         </p>
