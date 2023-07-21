@@ -38,7 +38,7 @@ const Features = () => {
     }
   ]
   return (
-    <div className='mt-[140px] pl-[299px] pr-[250px] flex gap-[83px]'>
+    <div className='mt-[140px] pl-[50px] lg:pl-[299px] lg:pr-[250px] lg:flex gap-[83px]'>
       <div>
         <h2 className='feature-text flex items-center gap-2'>
           <hr className='line1' />

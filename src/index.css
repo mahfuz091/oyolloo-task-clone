@@ -296,6 +296,8 @@
   text-transform: uppercase;
 }
 
+
+
 .feature-title {
   color: #0f0f0f;
   font-family: Space Grotesk;
@@ -306,6 +308,19 @@
   /* 114.815% */
   letter-spacing: -1.08px;
   width: 721px;
+}
+
+@media (max-width:576px) {
+  .feature-title {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 114.815% */
+
+    width: 100%;
+  }
+
 }
 
 .feature-description {

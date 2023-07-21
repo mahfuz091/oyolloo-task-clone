@@ -6,7 +6,7 @@ const AccordionItem = ({ open, toggle, title, desc }) => {
 
 
     return (
-        <div className="pt-[10px] max-w-[579px]">
+        <div className="pt-[10px] w-full lg:max-w-[579px]">
 
             <div className={open ? "collaps-title-open" : "collaps-title"} onClick={toggle} >
 
