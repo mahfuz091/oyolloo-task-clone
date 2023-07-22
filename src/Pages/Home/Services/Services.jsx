@@ -7,20 +7,22 @@ import icon4 from "../../../assets/Image/Icon-4.png";
 
 const Services = () => {
   return (
-    <div className='mt-[120px]' id='services'>
-      <div className=' lg:ml-[302px] lg:flex '>
-        <div className='ml-[50px] md:ml-0 mt-[90px]'>
+    <div className='service-one md:pt-[120px] ' id='services' >
+      <div className="wrapper">
+
+      <div className='row'>
+        <div className='service-content lg:pt-[90px]'>
           <h2 className='feature-text flex items-center gap-2'>
             <hr className='line1' />
             Our Services
           </h2>
-          <h1 className='service-title'>Providing all Console Solution</h1>
-          <p className='service-description'>
+          <h1 className='service-title md:text-[54px]'>Providing all Console Solution</h1>
+          <p className='service-description md:text-[20px]'>
             Business consultants provide management consulting to help
             businesses organizations improve performance and efficienc
           </p>
 
-          <div className='flex items-center mt-[70px]'>
+          <div className='flex items-center mt-[15px] md:mt-[70px]'>
             <div>
               <h5 className='font-primary text-[50px] font-bold text-[#FD9C06]'>
                 <CountUp separator='' end={95} /> %
@@ -38,8 +40,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className='service-cards relative'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-[30px] absolute  top-[90px] -left-[175px]'>
+        <div className='service-cards lg:pl-[74px] lg:mt-0 relative '>
+          <div className=' grid grid-cols-1 md:grid-cols-2 gap-[30px] '>
             <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>
@@ -67,7 +69,7 @@ const Services = () => {
               </a>
               <div className='shadow absolute -bottom-[18px] -z-10'></div>
             </div>
-            <div className='service-card'>
+            <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>
               <p className='service-card-description'>
@@ -93,7 +95,7 @@ const Services = () => {
                 </svg>
               </a>
             </div>
-            <div className='service-card'>
+            <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>
               <p className='service-card-description'>
@@ -119,7 +121,7 @@ const Services = () => {
                 </svg>
               </a>
             </div>
-            <div className='service-card'>
+            <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>
               <p className='service-card-description'>
@@ -147,6 +149,8 @@ const Services = () => {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
     </div>
   );

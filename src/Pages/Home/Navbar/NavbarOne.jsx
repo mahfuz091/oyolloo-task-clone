@@ -2,8 +2,11 @@ import React from "react";
 
 const NavbarOne = () => {
   return (
-    <div className='navbar-one  lg:flex justify-between '>
-      <div className='flex gap-5'>
+
+    <div className='navbar-one  flex  '>
+      <div className="wrapper">
+
+      <div className='social-icons flex gap-5'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='20'
@@ -59,7 +62,7 @@ const NavbarOne = () => {
           </g>
         </svg>
       </div>
-      <div className='lg:flex gap-5'>
+      <div className='flex gap-5'>
         <div className='flex items-center gap-3'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -124,6 +127,8 @@ const NavbarOne = () => {
           <p className='text-base'>(209) 555-0104</p>
         </div>
       </div>
+      </div>
+
     </div>
   );
 };

@@ -85,8 +85,20 @@ const NavbarTwo = () => {
     </>
   );
   return (
-    <div className='navbar wraper pt-[26px] pb-[25.2px] bg-[#FFFFFF]'>
-      <div className='navbar-start'>
+    <div className='navbar wrapper pt-[26px] pb-[25.2px] bg-[#FFFFFF]'>
+      <div className='navbar-start flex  justify-between pl-[20px]'>
+
+        <div className='flex gap-3 items-center'>
+          <img className='logo' src={logo} alt='' />
+          <div>
+            <h6 className='font-bold font-primary text-[#404040] text-3xl'>
+              Creative
+            </h6>
+            <p className='text-sm font-secondary text-[#404040] tracking-[1.12px]'>
+              Peoples Design
+            </p>
+          </div>
+        </div>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost lg:hidden'>
             <svg
@@ -106,21 +118,10 @@ const NavbarTwo = () => {
           </label>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100  rounded-box w-52'
+            className='menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100  rounded-box w-48'
           >
             {navOptions}
           </ul>
-        </div>
-        <div className='flex gap-3 items-center'>
-          <img className='logo' src={logo} alt='' />
-          <div>
-            <h6 className='font-bold font-primary text-[#404040] text-3xl'>
-              Creative
-            </h6>
-            <p className='text-sm font-secondary text-[#404040] tracking-[1.12px]'>
-              Peoples Design
-            </p>
-          </div>
         </div>
       </div>
       <div className='navbar-center hidden lg:flex'>

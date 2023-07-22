@@ -7,22 +7,22 @@ import pinterest from "../../../assets/Image/footer-Pinterest.png";
 const Footer = () => {
   return (
     <div className='bg-[#0F0F0F]  mt-[120px] pb-[34px]'>
-      <div className='lg:max-w-[1320px] px-8 md:px-0 mx-auto'>
-        <div className='pt-[70px] lg:flex items-center gap-[302px]'>
+      <div className='lg:max-w-[1320px] px-8 md:px-8 lg:px-8 xl:px-0 mx-auto'>
+        <div className='pt-[70px] xl:flex items-center gap-[302px]'>
           <div>
-            <h2 className='footer-header mb-[24px]'>
+            <h2 className='footer-header text-[26px] md:text-[34px] mb-[24px]'>
               Subscribe Our Newsletter
             </h2>
-            <p className='footer-desctiption  lg:w-[469px]'>
+            <p className='footer-desctiption text-lg  lg:w-[469px]'>
               Enter your details to get business inspiration, trending
               solutions, and consulting tips delivered to your inbox
             </p>
           </div>
-          <div className='relative mt-4 md:mt-0 lg:w-[555px]'>
+          <div className='relative   mt-4 md:mt-6 lg:mt-6 xl:mt-0 lg:w-[555px]'>
             <input
               type='text'
               placeholder='Enter your email'
-              className=' w-full pl-[30px] py-[25px] pr-[217px] text-lg outline-none'
+              className=' w-full pl-[30px] py-[25px] pr-[217px]  text-lg outline-none'
             />
             <button className=' bg-[#495AF0] text-[#fff] absolute top-0 right-0 px-[32px] py-[25px] font-secondary text-xl font-semibold'>
               Subscribe
@@ -30,8 +30,8 @@ const Footer = () => {
           </div>
         </div>
         <hr className=' bg-[#1F2B2B] mt-[60px]' />
-        <div className='mt-[60px] lg:flex'>
-          <div className='lg:mr-[140px]'>
+        <div className='mt-[60px] xl:flex justify-between'>
+          <div className='mr-[140px]'>
             <div className='flex gap-3 items-center'>
               <img className='logo' src={logo} alt='' />
               <div>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <p className='lg:w-[394px] mt-[26px] text-lg font-secondary text-[#B4B4B4]'>
+            <p className='xl:w-[394px] mt-[26px] text-lg font-secondary text-[#B4B4B4]'>
               Business consultants provide management consulting to help
               businesses and organizations improve performance .
             </p>
@@ -59,8 +59,8 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className='mt-5 md:mt-0 grid grid-cols-2 lg:grid-cols-3'>
-            <div className='lg:mr-[134px] w-full lg:w-[124px]'>
+          <div className='mt-5 md:mt-8 lg:mt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3'>
+            <div className='xl:mr-[134px] ml-auto w-full xl:w-[124px]'>
               <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
                 Company
               </h2>
@@ -73,7 +73,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='lg:mr-[133px] w-full lg:w-[168px]'>
+            <div className='xl:mr-[133px] w-full xl:w-[168px]'>
               <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
                 Our Services
               </h2>
@@ -85,7 +85,7 @@ const Footer = () => {
                 <li>Manage investment</li>
               </ul>
             </div>
-            <div className='mt-5 md:mt-0 w-full lg:w-[226px]'>
+            <div className='mt-5 md:mt-5 lg:mt-5 xl:mt-0 w-full xl:w-[226px] xl:ml-9'>
               <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
                 Contact Info.
               </h2>
@@ -98,10 +98,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='copyright '>
+        <div className='copyright lg:p-[30px] p-[15px]'>
           <p className=''>© 2022 CreativePeoples. All Rights Reserved</p>
-          <div>
-            <a className='lg:mr-[36px] underline' href=''>
+          <div className='flex gap-4'>
+            <a className=' underline' href=''>
               Privacy Policy
             </a>
             <a href='' className='underline'>

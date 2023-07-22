@@ -4,10 +4,11 @@ import { FiArrowUpRight } from "react-icons/fi";
 import CountUp from "react-countup";
 const About = () => {
   return (
-    <div id='about'>
-      <div className='max-w-[1620px] flex flex-col-reverse lg:flex lg:flex-row gap-[90px]'>
-        <div className='bg-[#FFF5DA]  py-1 md:py-0 lg:pl-[300px]'>
-          <div className='flex gap-8 pl-10 mt-[50px] md:pl-0 mb-[41px] md:mt-[96px]'>
+    <div className="about" id='about'>
+      <div className='wrapper '>
+        <div className="row">
+        <div className=' about-img '>
+          <div className='flex relative z-10 gap-8 mb-[35px]'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='84'
@@ -26,9 +27,11 @@ const About = () => {
               More <br /> About CP.
             </p>
           </div>
-          <img src={about} alt='' />
+          <div className="about-img-item">
+            <img src={about} alt='' />
+          </div>
         </div>
-        <div className='mt-[27px] pl-10 md:pl-0'>
+        <div className='about-content'>
           <h2 className='about-text flex items-center gap-2'>
             <hr className='line1' />
             About Us
@@ -41,7 +44,7 @@ const About = () => {
             strategies for business consultants and things to consider before
             becoming a consultant
           </p>
-          <a className='about-btn mt-[50px]'>
+          <a className='about-btn '>
             More About Us <FiArrowUpRight />
           </a>
           <div>
@@ -50,7 +53,7 @@ const About = () => {
               <hr className='line2' />
               <hr className='line2' />
             </div>
-            <div className='flex justify-between'>
+            <div className='md:flex text-center md:text-left justify-between'>
               <div>
                 <div className='count'>
                   <CountUp separator='' end={2760} />
@@ -74,6 +77,7 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

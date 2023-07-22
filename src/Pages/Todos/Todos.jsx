@@ -10,7 +10,7 @@ const Todos = () => {
     }, [])
     console.log(todos);
     return (
-        <div className='wraper'>
+        <div className='wrapper'>
             <div className="grid grid-cols-2 px-2 md:px-0 lg:grid-cols-4 gap-5 ">
                 {todos.map((data) => (
                     <div div key={data.id} className='todo' >

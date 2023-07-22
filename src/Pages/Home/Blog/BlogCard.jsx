@@ -4,14 +4,14 @@ import moment from "moment";
 
 const BlogCard = ({ blog }) => {
   return (
-    <div className='mt-[20px] md:mt-0'>
+    <div className='mt-[20px] md:mt-0 max-w-full'>
       <div className=' relative'>
         <img className='blog-image' src={blog.image} alt='' />
         <p className='blog-date absolute top-[18px] left-[17.99px] '>
           {moment(blog.date).format("DD MMM YYYY")}
         </p>
       </div>
-      <div className='flex gap-[166.66px] items-center mt-[28px]'>
+      <div className='flex justify-between items-center mt-[28px]'>
         <p className='blog-status'>{blog.status}</p>
         <div className='flex justify-between gap-[40px] items-center'>
           <div className='flex items-center gap-[8.99px] '>
