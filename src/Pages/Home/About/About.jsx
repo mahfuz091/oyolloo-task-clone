@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 const About = () => {
   return (
     <div id='about'>
-      <div className='max-w-[1620px] flex flex-col-reverse lg:flex gap-[90px]'>
+      <div className='max-w-[1620px] flex flex-col-reverse lg:flex lg:flex-row gap-[90px]'>
         <div className='bg-[#FFF5DA]  py-1 md:py-0 lg:pl-[300px]'>
           <div className='flex gap-8 pl-10 mt-[50px] md:pl-0 mb-[41px] md:mt-[96px]'>
             <svg

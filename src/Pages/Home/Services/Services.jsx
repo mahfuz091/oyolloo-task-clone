@@ -39,7 +39,7 @@ const Services = () => {
           </div>
         </div>
         <div className='service-cards relative'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-[30px] absolute  lg:top-[90px] lg:-left-[175px]'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-[30px] absolute  top-[90px] -left-[175px]'>
             <div className='service-card relative'>
               <img className='w-[73px] h-[71px]' src={icon1} alt='' />
               <h3 className='service-card-title'>Business Analysis</h3>

@@ -21,15 +21,15 @@ const Testimonial = () => {
   return (
     <div className='testimonial'>
       <div className='wraper'>
-        <div className='pt-[100px] flex items-center justify-between mb-[60px]'>
-          <h3 className='testimonial-title'>
+        <div className=' pt-[50px] lg:pt-[100px] lg:flex items-center justify-between mb-[60px]'>
+          <h3 className='testimonial-title mb-4 lg:mb-0'>
             Our Client Says Their Satisfaction
           </h3>
-          <a className='discover-btn '>
+          <a className='discover-btn'>
             Discover More <FiArrowUpRight />
           </a>
         </div>
-        <div className='grid grid-cols-2  testimonial-content'>
+        <div className='grid grid-cols-1 lg:grid-cols-2  testimonial-content'>
           <div className='relative'>
             <img src={testimonial} alt='' />
             <img

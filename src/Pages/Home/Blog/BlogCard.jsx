@@ -4,7 +4,7 @@ import moment from "moment";
 
 const BlogCard = ({ blog }) => {
   return (
-    <div>
+    <div className='mt-[20px] md:mt-0'>
       <div className=' relative'>
         <img className='blog-image' src={blog.image} alt='' />
         <p className='blog-date absolute top-[18px] left-[17.99px] '>

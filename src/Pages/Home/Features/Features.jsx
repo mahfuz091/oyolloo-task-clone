@@ -57,9 +57,9 @@ const Features = () => {
           Business consultants provide management consulting to help businesses
           and organizations improve performance and efficienc
         </p>
-        <div className='relative'>
+        <div className='relative w-full'>
           <img className='' src={feature} alt='' />
-          <div className='project-success absolute -left-[42px] -bottom-[33px]'>
+          <div className='project-success '>
             <h1 className='feature-card-title'>Our Project Success</h1>
             <p className='feature-card-description'>
               Work with CP consultants to plan for the future of your business

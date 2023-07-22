@@ -17,7 +17,7 @@ const Banner = () => {
             <span className='text-[#FD9C06]'>Hire consultant</span> for boost
             your business
           </h2>
-          <p className='hero-description w-full mt-[20px]  lg:w-[629px]'>
+          <p className='hero-description sx:w-full md:w-full mt-[20px]  lg:w-[629px]'>
             Consultancy firm established by professionals with the intention to
             identify and unlock potential avenues for innovative ideas
           </p>
@@ -102,28 +102,32 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className='lg:mt-[129px] relative   lg:ml-0 hero-sec '>
+        <div className='mt-[129px] relative  hero-sec '>
           <div className='hero-img  relative  '>
             <div className='border   '></div>
-            <div className='absolute bottom-[4px] -left-[37px]'>
+            <div className='absolute   bottom-[4px] -left-[37px]'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='525'
                 height='621'
                 viewBox='0 0 525 621'
                 fill='none'
-                className='ml-[41px] '
+                className='ml-[41px] svg-clip '
               >
                 <path d='M0 162.5L525 0.5V621H0L0 162.5Z' fill='#C3CAFF' />
               </svg>
 
-              <img className='absolute bottom-0 z-10' src={portrait} alt='' />
+              <img
+                className='absolute bottom-0 z-10 portrait-img '
+                src={portrait}
+                alt=''
+              />
             </div>
           </div>
-          <div className=' absolute -bottom-[100px] lg:bottom-[107px] -left-[50px] lg:-left-[188px]  z-10 '>
+          <div className=' banner-card   '>
             <img src={card02} alt='' />
           </div>
-          <div className='banner-project flex items-center gap-[19px] pl-[20px] absolute -top-[55px] right-0 lg:-top-[47px] z-10 md:right-[124px] lg:-right-[98px]'>
+          <div className='banner-project flex items-center gap-[19px] pl-[20px] '>
             <img className='w-[71px]' src={project} alt='' />
             <div>
               <h2 className='font-secondary text-3xl font-bold mb-[10px]'>

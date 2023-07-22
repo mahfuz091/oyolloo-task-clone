@@ -7,18 +7,18 @@ import pinterest from "../../../assets/Image/footer-Pinterest.png";
 const Footer = () => {
   return (
     <div className='bg-[#0F0F0F]  mt-[120px] pb-[34px]'>
-      <div className='max-w-[1320px] mx-auto'>
-        <div className='pt-[70px] flex items-center gap-[302px]'>
+      <div className='lg:max-w-[1320px] px-8 md:px-0 mx-auto'>
+        <div className='pt-[70px] lg:flex items-center gap-[302px]'>
           <div>
             <h2 className='footer-header mb-[24px]'>
               Subscribe Our Newsletter
             </h2>
-            <p className='footer-desctiption lg:w-[469px]'>
+            <p className='footer-desctiption  lg:w-[469px]'>
               Enter your details to get business inspiration, trending
               solutions, and consulting tips delivered to your inbox
             </p>
           </div>
-          <div className='relative lg:w-[555px]'>
+          <div className='relative mt-4 md:mt-0 lg:w-[555px]'>
             <input
               type='text'
               placeholder='Enter your email'
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className=' bg-[#1F2B2B] mt-[60px]' />
-        <div className='mt-[60px] flex'>
+        <div className='mt-[60px] lg:flex'>
           <div className='lg:mr-[140px]'>
             <div className='flex gap-3 items-center'>
               <img className='logo' src={logo} alt='' />
@@ -59,41 +59,43 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className='mr-[134px] lg:w-[124px]'>
-            <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
-              Company
-            </h2>
-            <ul className='text-[#B4B4B4] text-lg font-normal space-y-2  '>
-              <li>About</li>
-              <li>Contact</li>
-              <li>FAQ's</li>
-              <li>Services</li>
-              <li>Latest Posts</li>
-            </ul>
-          </div>
+          <div className='mt-5 md:mt-0 grid grid-cols-2 lg:grid-cols-3'>
+            <div className='lg:mr-[134px] w-full lg:w-[124px]'>
+              <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
+                Company
+              </h2>
+              <ul className='text-[#B4B4B4] text-lg font-normal space-y-2  '>
+                <li>About</li>
+                <li>Contact</li>
+                <li>FAQ's</li>
+                <li>Services</li>
+                <li>Latest Posts</li>
+              </ul>
+            </div>
 
-          <div className='mr-[133px] lg:w-[168px]'>
-            <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
-              Our Services
-            </h2>
-            <ul className='text-[#B4B4B4] text-lg font-normal space-y-2 '>
-              <li>Business planning</li>
-              <li>Tax strategy</li>
-              <li>Financial advices</li>
-              <li>Insurance strategy</li>
-              <li>Manage investment</li>
-            </ul>
-          </div>
-          <div className='lg:w-[226px]'>
-            <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
-              Contact Info.
-            </h2>
-            <ul className='text-[#B4B4B4] text-lg font-normal space-y-2 '>
-              <li>(303) 555-0105</li>
-              <li>(303) 555-0105</li>
-              <li>sara.cruz@example.com </li>
-              <li>3517 W. Gray St. Utica, Pennsylvania 57867</li>
-            </ul>
+            <div className='lg:mr-[133px] w-full lg:w-[168px]'>
+              <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
+                Our Services
+              </h2>
+              <ul className='text-[#B4B4B4] text-lg font-normal space-y-2 '>
+                <li>Business planning</li>
+                <li>Tax strategy</li>
+                <li>Financial advices</li>
+                <li>Insurance strategy</li>
+                <li>Manage investment</li>
+              </ul>
+            </div>
+            <div className='mt-5 md:mt-0 w-full lg:w-[226px]'>
+              <h2 className='text-[#fff] font-secondary text-2xl font-semibold mb-[30px] '>
+                Contact Info.
+              </h2>
+              <ul className='text-[#B4B4B4] text-lg font-normal space-y-2 '>
+                <li>(303) 555-0105</li>
+                <li>(303) 555-0105</li>
+                <li>sara.cruz@example.com </li>
+                <li>3517 W. Gray St. Utica, Pennsylvania 57867</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='copyright '>
