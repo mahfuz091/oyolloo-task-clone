@@ -8,6 +8,14 @@
   width: 100%;
 }
 
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
 .navbar a:hover {
   background: none;
   border-radius: 0;
@@ -76,6 +84,7 @@
   color: #ffffff;
   padding: 20px 300px;
 }
+
 @media (max-width: 576px) {
   .navbar-one {
     padding: 20px 150px;
@@ -724,6 +733,7 @@
   gap: 4px;
   margin-left: 28px;
 }
+
 .banner-card {
   /* absolute -bottom-[100px] lg:bottom-[107px] -left-[50px] lg:-left-[188px]  z-10 */
   position: absolute;
@@ -775,23 +785,28 @@
   justify-content: space-between;
   padding: 30px;
 }
+
 .svg-clip {
   width: 525px;
   height: 621px;
 }
+
 .hero-sec {
   /* mt-[129px] relative  */
   position: relative;
   margin-top: 129px;
 }
+
 @media (max-width: 576px) {
   .hero-sec {
     margin-left: -122px;
     width: 100%;
   }
+
   .hero-img {
     width: 100%;
   }
+
   .banner-card {
     /* absolute -bottom-[100px] lg:bottom-[107px] -left-[50px] lg:-left-[188px]  z-10 */
     position: absolute;
@@ -799,6 +814,7 @@
     left: -65px;
     z-index: 10;
   }
+
   /* .portrait-img {
     width: 100%;
   }
@@ -817,23 +833,28 @@
     top: 120px;
     z-index: 10;
   }
+
   .discover-btn {
     margin-left: 20px;
     padding-left: 40px;
   }
+
   .hero-title {
     margin-left: 20px;
     font-size: 72px;
   }
+
   .hero-description {
     margin-left: 20px;
   }
+
   .service-cards {
     width: 100%;
     height: 1450px;
     margin-top: 50px;
     margin-left: 0;
   }
+
   .service-card {
     margin-left: 270px;
     margin-top: 0px;
@@ -841,11 +862,13 @@
     width: 398px;
     height: 297px;
   }
+
   .testimonial {
     width: 100%;
 
     flex-shrink: 0;
   }
+
   .testimonial-title {
     width: 100%;
     margin-left: 50px;
@@ -858,22 +881,27 @@
     /* 114.815% */
     letter-spacing: -1.08px;
   }
+
   .testimonial .discover-btn {
     margin-left: 50px;
   }
+
   .testimonial-content {
     margin-left: 50px;
     margin-right: 50px;
   }
+
   .blog-title {
     font-size: 38px;
 
     margin-top: 700px;
   }
+
   .footer-header {
     font-size: 28px;
     text-align: center;
   }
+
   .footer-desctiption {
     font-size: 14px;
     text-align: center;

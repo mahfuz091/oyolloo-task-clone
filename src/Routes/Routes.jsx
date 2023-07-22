@@ -5,6 +5,7 @@ import About from "../Pages/Home/About/About";
 import Services from "../Pages/Home/Services/Services";
 import Blog from "../Pages/Home/Blog/Blog";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Todos from "../Pages/Todos/Todos";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
         path: "blog",
         element: <Blog></Blog>,
       },
+      {
+        path: 'todos',
+        element: <Todos></Todos>,
+      }
     ],
   },
 ]);
