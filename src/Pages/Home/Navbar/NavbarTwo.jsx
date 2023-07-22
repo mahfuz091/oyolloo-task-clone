@@ -71,6 +71,17 @@ const NavbarTwo = () => {
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "text-[#FD9C06] active-border" : ""
+          }
+          to='todos'
+          smooth
+        >
+          Todos
+        </NavLink>
+      </li>
     </>
   );
   return (
@@ -95,7 +106,7 @@ const NavbarTwo = () => {
           </label>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52'
+            className='menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100  rounded-box w-52'
           >
             {navOptions}
           </ul>
