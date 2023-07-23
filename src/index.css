@@ -139,8 +139,7 @@
 }
 
 @media (min-width: 1200px) {
-  .navbar-one {
-  }
+  .navbar-one {}
 }
 
 .navbar-one .social-icons {
@@ -558,17 +557,23 @@
 .service-card-title {
   color: #0f0f0f;
   font-family: Inter;
-  font-size: 26px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   margin-top: 14px;
 }
 
+@media (min-width: 768px) {
+  .service-card-title {
+    font-size: 26px;
+  }
+}
+
 .service-card-description {
   color: var(--p-3, #404040);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -576,10 +581,14 @@
   /* 162.5% */
 }
 
+.service-card-description {
+  font-size: 16px;
+}
+
 .service-btn {
   color: #495af0;
   font-family: Inter;
-  font-size: 18px;
+
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -743,7 +752,7 @@
   color: var(--p-2, #0f0f0f);
   text-align: center;
   font-family: Space Grotesk;
-  font-size: 54px;
+
   font-style: normal;
   font-weight: 700;
   line-height: 62px;
@@ -776,7 +785,7 @@
 .blog-subtitle {
   color: #0f0f0f;
   font-family: Inter;
-  font-size: 24px;
+
   font-style: normal;
   font-weight: 600;
   line-height: 38px;
@@ -787,7 +796,7 @@
 .blog-details {
   color: #404040;
   font-family: Inter;
-  font-size: 18px;
+
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -1000,6 +1009,7 @@
 }
 
 @media (min-width: 992px) {
+
   .testimonial .wrapper,
   .service-one .wrapper,
   .feature-one .wrapper,
@@ -1009,6 +1019,7 @@
 }
 
 @media (min-width: 1200px) {
+
   .testimonial .wrapper,
   .service-one .wrapper,
   .feature-one .wrapper,
@@ -1016,6 +1027,7 @@
     max-width: 1320px;
   }
 }
+
 .testimonial .testimonial-content,
 .service-one .row,
 .feature-one .row,
@@ -1025,6 +1037,7 @@
   max-width: 100%;
   width: 100%;
 }
+
 .testimonial-img,
 .service-content,
 .feature-one-faq,
@@ -1081,9 +1094,11 @@
     margin-top: 120px;
   }
 }
+
 .testimonial {
   position: relative;
 }
+
 .testimonial::before {
   content: "";
   position: absolute;
@@ -1101,6 +1116,7 @@
   position: relative;
   z-index: 10;
 }
+
 .testimonial-swiper,
 .service-cards,
 .feature-one-content,
@@ -1111,21 +1127,25 @@
 }
 
 @media (min-width: 1200px) {
+
   .testimonial-swiper,
   .feature-one-faq,
   .about-img {
     width: 58.3333333333%;
   }
+
   .testimonial-img,
   .feature-one-content,
   .about-content {
     padding-top: 0;
     width: 41.6666666667%;
   }
+
   .testimonial-swiper {
     padding-left: 85px;
     padding-right: 85px;
   }
+
   .swiper-pagination {
     margin-left: 250px;
   }

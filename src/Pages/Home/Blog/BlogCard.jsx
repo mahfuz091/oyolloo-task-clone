@@ -4,7 +4,7 @@ import moment from "moment";
 
 const BlogCard = ({ blog }) => {
   return (
-    <div className='mt-[20px] md:mt-0 max-w-full'>
+    <div className='  max-w-full'>
       <div className=' relative'>
         <img className='blog-image' src={blog.image} alt='' />
         <p className='blog-date absolute top-[18px] left-[17.99px] '>
@@ -47,9 +47,9 @@ const BlogCard = ({ blog }) => {
         </div>
       </div>
       <hr className='line3' />
-      <h1 className='blog-subtitle'>{blog.title}</h1>
-      <p className='blog-details'>{blog.details}</p>
-      <a className='service-btn' href=''>
+      <h1 className='blog-subtitle text-[20px] md:text-[24px]'>{blog.title}</h1>
+      <p className='blog-details text-[16px] md:text-[18px]'>{blog.details}</p>
+      <a className='service-btn text-[16px] md:text-[18px]' href=''>
         Read More{" "}
         <svg
           xmlns='http://www.w3.org/2000/svg'
